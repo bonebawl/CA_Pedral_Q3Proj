@@ -1,0 +1,332 @@
+
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@font-face{
+	font-family:"Jokerman";
+	src: url(fonts/Jokerman.ttf);
+	font-weight:normal;
+	font-style:normal;
+}
+* {
+  margin: 0;
+}
+/*BG Color*/
+body{
+	background-color:#6E6E6E;
+	padding:7px;
+	margin-bottom:1050px;
+}
+/*Header*/
+header{
+	float:left;
+	width:20%;
+	height:100px;
+}
+/*All p values*/
+p{
+	font-family:"Muli", sans-serif;
+	font-size:20px;
+	color:white;
+}
+/*navbar*/
+nav{
+	margin-right:10px;
+	padding:0;
+	float:right;
+	width:70%;
+	height:100px;
+} 	
+img{
+	border-radius:30px;
+}
+/*Header 1 in navbar*/
+h1.nav {
+	margin-top:10px;
+	font-family:"Jokerman", sans-serif;
+	text-shadow:0 0 10px black;
+	color:white;
+	font-weight:bolder;
+	font-size:45px;
+	display:inline-block;
+}
+
+/*Unordered list for the navbar*/
+ul.navbar{
+	text-decoration:none;
+	list-style:none;
+	padding:0;
+	display:inline;
+	font-family:"Muli", sans-serif;
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+	margin-right:20%;
+}
+/*List for the navbr*/
+li.navbar{
+	margin-right:5%;
+	display:inline-block;
+}
+/*Link*/
+a{
+	color:white;
+	text-decoration:none;
+}
+/*Link hover*/
+a:hover{
+	color:#BCFD4C;
+}
+/*Green Font*/
+span{
+	color:#BCFD4C;
+	font-weight:bolder;
+}
+/*Big video*/
+aside.video{
+	float:right;
+	width:60%;
+	padding:0;
+	height: 20%;
+	margin-top:50px;
+	margin-right:300px;
+	position:relative;
+}
+
+/*Video Format*/
+div.video{
+	position:relative;
+	left:100px;
+}
+div.videotext{
+	position:absolute;
+	top:0;
+	margin-top:50px;
+}
+
+h1.videotext{
+	font-family:"Quicksand", sans-serif;
+	font-size:70px;
+	color:white;
+	font-weight:bold;
+	text-shadow:2px 1px 5px black;
+}
+
+/*Body Header*/
+h1.bodyheader{
+	padding-top:200px;
+	text-align:center;
+	font-family:"Muli", sans-serif;
+	font-size:50px;
+	color:white;
+	font-weight:bold;
+	margin-bottom:50px;
+}
+
+/*First section*/
+article.firstsection{
+	transform:translateY(150px);
+	clear:right;
+	width:0%;
+	height:400px;
+	opacity:1;
+	text-align:center;
+	animation-name:start;
+	animation-duration:3s;
+	animation-delay:1s;
+}
+
+img.imgindbody{
+	border:2px solid black;
+}
+
+/*The What*/
+article.nextsection{
+	transform:translateY(450px);
+	clear:right;
+	clear:left;
+	width:100%;
+	height:550px;
+	text-align:center;
+	animation-name:start;
+	animation-duration:4s;
+	margin-bottom:50px;
+}
+aside.index_first_img{
+	margin-left:4%;
+	width:400px;
+	height:315px;
+	float:left;
+}
+aside.index_second_img{
+	margin-left:9%;
+	width:450px;
+	height:305px;
+	float:left;
+	position:relative;
+	top:75px;
+	transform:scaleZ(5);
+}
+aside.index_third_img{
+	margin-left:9%;
+	width:400px;
+	height:315px;
+	float:left;
+}
+
+/*History*/
+article.history{
+	clear:right;
+	clear:left;
+	transform:translateY(700px);
+	width:100%;
+	height:500px;
+	text-align:center;
+	animation-name:start;
+	animation-duration:4s;
+	margin-bottom:50px;
+}
+aside.index_fourth_img{
+	width:500px;
+	animation-name:start;
+	animation-duration:7s;
+	float:left;
+	margin-left:14%;
+	margin-top:3%;
+}
+aside.index_fifth_img{
+	width:575px;
+	height:550px;
+	float:left;
+	margin-left:13%;
+	margin-top:3%;
+	animation-name:start;
+	animation-duration:7s;
+}
+
+
+
+/*Discussion Part*/
+img.horizontal_museum{
+	float:left;
+}
+/*Discussion Asides*/
+aside.discussion_first_img{
+	width:550px;
+	height:300px;
+	animation-name:start;
+	animation-duration:3s;
+	float:left;
+	text-align:center;
+	margin-left:9%;
+	margin-top:2%;
+}
+aside.discussion_second_img{
+	width:400px;
+	height:300px;
+	animation-name:start;
+	animation-duration:3s;
+	float:left;
+	text-align:center;
+	margin-left:17%;
+	margin-top:2%;
+}
+aside.discussion_third_img{
+	width:400px;
+	height:200px;
+	margin-left:37%;
+}
+aside.discussion_fourth_img{
+	margin-bottom:50px;
+}
+
+/*Unordered List for CLAYGO*/
+ul.claygo_part{
+	font-family:"Quicksand", sans-serif;
+	font-size:30px;
+	color:white;
+	font-weight:bold;
+	text-shadow:2px 5px 5px black;
+}
+/*List for CLAYGO*/
+li.claygo_part{
+	list-style:none;
+}
+
+
+/*Third Page CSS*/
+/*References*/
+article.references{
+	transform:translateY(450px);
+	clear:left;
+	clear:right;
+	width:100%;
+	height:200px;
+	text-align:left;
+}
+/*First Image About Us*/
+aside.aboutus_first_img{
+	height:400px;
+	width:700px;
+	transform:translateX(30%);
+	float:left;
+}
+aside.aboutus_second_img{
+	transform:translateX(250px);
+	float:left;
+}
+/*Unordered List Of References*/
+ul.resources{
+	font-family:"Muli", sans-serif;
+	font-size:20px;
+	color:white;
+	float:left;
+}
+/*Animation*/
+@keyframes start{
+	0%{opacity:1}
+	10%{opacity:0.1;}
+	20%{opacity:0.2}
+	30%{opacity:0.3;}
+	40%{opacity: 0.4}
+	50%{opacity: 0.5}
+	60%{opacity:0.6}
+	70%{opacity: 0.7}
+	80%{opacity:0.8}
+	90%{opacity: 0.9}
+	100%{opacity:1}
+}
+
+/*Footer*/
+footer{
+	width:100%;
+	height:200px;
+	position:fixed;
+	right:0px;
+	left:0px;
+	bottom:-110px;
+}
+/*Images*/
+.instagram{
+	width: 55px;
+	height: 55px;
+	background: url("img/socmed.png") -21px -13px;
+}
+.facebook{
+	width: 55px;
+	height: 55px;
+	background: url("img/socmed.png") -211px -296px;
+}
+.instagram:hover{
+	transition: .2s;
+	width:55px;
+	height:55px;
+	background:url("img/socmed.png") -313px -13px;
+}
+
+.facebook:hover{
+	transition: .2s;
+	width:55px;
+	height:55px;
+	background:url("img/socmed.png") -503px -296px;
+}
